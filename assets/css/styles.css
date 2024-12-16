@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Ajoute des styles personnalisés si nécessaire */
+body {
+  font-family: "Inter", sans-serif; /* Une jolie police que tu peux utiliser */
+}
+
+/* Exemple de style personnalisé pour le SEO et l'apparence */
+h1,
+h2,
+h3 {
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #1f2937; /* Couleur gris foncé pour améliorer la lisibilité */
+}
+
+p {
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  color: #374151;
+}
+
+.navbar {
+  background-color: #1f2937; /* Couleur de fond sombre */
+  color: #ffffff;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #4f46e5; /* Une couleur d'accentuation */
+}
+
+.footer {
+  background-color: #1f2937; /* Fond sombre pour le footer */
+  color: #d1d5db; /* Texte gris clair */
+  padding: 2rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.footer a {
+  color: #4f46e5; /* Couleur d'accentuation */
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+/* Styles personnalisés pour les cartes */
+.card {
+  border: 1px solid #e5e7eb; /* Bordure légère */
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre subtile */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Légère élévation au survol */
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.card p {
+  color: #6b7280; /* Gris moyen */
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+  }
+
+  .navbar a {
+    margin: 0.5rem 0;
+  }
+
+  .footer {
+    font-size: 0.8rem;
+  }
+}
