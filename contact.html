@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Contactez ClicketPaf pour toute demande d'information ou de service."
+    />
+    <meta
+      name="keywords"
+      content="contact, ClicketPaf, service client, livraison, repas, colis, déménagement, courses"
+    />
+    <meta name="author" content="ClicketPaf" />
+    <title>Contactez-nous - ClicketPaf</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.3/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link href="./assets/css/tailwind.css" rel="stylesheet" />
+  </head>
+  <body class="bg-gray-50 text-gray-800">
+    <!-- Navbar -->
+    <header class="bg-white shadow-md">
+      <nav
+        class="container mx-auto px-4 py-4 flex justify-between items-center"
+      >
+        <a href="index.html" class="text-2xl font-bold text-blue-600"
+          >ClicketPaf</a
+        >
+        <ul class="flex space-x-6">
+          <li>
+            <a href="index.html" class="text-gray-700 hover:text-blue-600"
+              >Accueil</a
+            >
+          </li>
+          <li>
+            <a href="services.html" class="text-gray-700 hover:text-blue-600"
+              >Services</a
+            >
+          </li>
+          <li>
+            <a href="about.html" class="text-gray-700 hover:text-blue-600"
+              >À propos</a
+            >
+          </li>
+          <li>
+            <a href="contact.html" class="text-gray-700 hover:text-blue-600"
+              >Contact</a
+            >
+          </li>
+          <li>
+            <a href="faq.html" class="text-gray-700 hover:text-blue-600">FAQ</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-blue-600 text-white py-20">
+      <div class="container mx-auto text-center">
+        <h1 class="text-4xl font-bold mb-4">Contactez-nous</h1>
+        <p class="text-lg mb-6">
+          Nous sommes à votre écoute pour toute question ou demande de service.
+          N'hésitez pas à remplir le formulaire ci-dessous.
+        </p>
+      </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="py-16">
+      <div class="container mx-auto px-4">
+        <div class="max-w-lg mx-auto bg-white shadow-lg rounded-lg p-8">
+          <h2 class="text-2xl font-bold text-center text-gray-800 mb-6">
+            Formulaire de Contact
+          </h2>
+          <form action="#" method="POST">
+            <div class="mb-4">
+              <label for="name" class="block text-gray-700 font-semibold"
+                >Nom</label
+              >
+              <input
+                type="text"
+                id="name"
+                name="name"
+                class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600"
+                placeholder="Votre nom complet"
+                required
+              />
+            </div>
+            <div class="mb-4">
+              <label for="email" class="block text-gray-700 font-semibold"
+                >E-mail</label
+              >
+              <input
+                type="email"
+                id="email"
+                name="email"
+                class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600"
+                placeholder="Votre adresse e-mail"
+                required
+              />
+            </div>
+            <div class="mb-4">
+              <label for="subject" class="block text-gray-700 font-semibold"
+                >Sujet</label
+              >
+              <input
+                type="text"
+                id="subject"
+                name="subject"
+                class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600"
+                placeholder="Le sujet de votre demande"
+                required
+              />
+            </div>
+            <div class="mb-4">
+              <label for="message" class="block text-gray-700 font-semibold"
+                >Message</label
+              >
+              <textarea
+                id="message"
+                name="message"
+                class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600"
+                placeholder="Votre message"
+                rows="6"
+                required
+              ></textarea>
+            </div>
+            <div class="text-center">
+              <button
+                type="submit"
+                class="bg-blue-600 text-white py-3 px-6 rounded-full font-semibold hover:bg-blue-500"
+              >
+                Envoyer le message
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-gray-200 py-10">
+      <div class="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div>
+          <h3 class="text-lg font-bold mb-2">ClicketPaf</h3>
+          <p>
+            Votre solution de livraison rapide et fiable pour tout type de
+            besoin.
+          </p>
+        </div>
+        <div>
+          <h3 class="text-lg font-bold mb-2">Liens Rapides</h3>
+          <ul>
+            <li><a href="index.html" class="hover:underline">Accueil</a></li>
+            <li>
+              <a href="services.html" class="hover:underline">Services</a>
+            </li>
+            <li><a href="contact.html" class="hover:underline">Contact</a></li>
+            <li><a href="faq.html" class="hover:underline">FAQ</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="text-lg font-bold mb-2">Contact</h3>
+          <p>Email : contact@clicketpaf.com</p>
+          <p>Téléphone : +33 6 12 34 56 78</p>
+          <p>Adresse : 123 Rue de la Livraison, Paris</p>
+        </div>
+        <div>
+          <h3 class="text-lg font-bold mb-2">Suivez-nous</h3>
+          <ul class="flex space-x-4">
+            <li><a href="#" class="hover:underline">Facebook</a></li>
+            <li><a href="#" class="hover:underline">Twitter</a></li>
+            <li><a href="#" class="hover:underline">Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="text-center text-gray-500 mt-8">
+        © 2024 ClicketPaf. Tous droits réservés.
+      </p>
+    </footer>
+  </body>
+</html>
