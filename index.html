@@ -4,36 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="robots" content="index, follow">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="ClicketPaf est la solution idéale pour toutes vos livraisons. Nous proposons des services de livraison rapide pour les repas, les colis, les courses et même les déménagements."
-    />
-    <meta
-      name="keywords"
-      content="ClicketPaf, livraison ClicketPaf, livraison rapide ClicketPaf, livraison de repas ClicketPaf, livraison de colis ClicketPaf, déménagement ClicketPaf"
-    />
+    <meta name="description" content="ClicketPaf est la solution idéale pour toutes vos livraisons. Nous proposons des services de livraison rapide pour les repas, les colis, les courses et même les déménagements." />
+    <meta name="keywords" content="ClicketPaf, livraison ClicketPaf, livraison rapide ClicketPaf, livraison de repas ClicketPaf, livraison de colis ClicketPaf, déménagement ClicketPaf" />
     <meta name="author" content="ClicketPaf" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="ClicketPaf - Livraison Rapide et Fiable" />
-    <meta
-      property="og:description"
-      content="ClicketPaf propose une livraison rapide et fiable de vos repas, colis, courses et déménagements partout en France. Faites confiance à ClicketPaf pour vos besoins de livraison."
-    />
+    <meta property="og:description" content="ClicketPaf propose une livraison rapide et fiable de vos repas, colis, courses et déménagements partout en France. Faites confiance à ClicketPaf pour vos besoins de livraison." />
     <meta property="og:image" content="assets/img/logo-clicketpaf.png" />
     <meta property="og:url" content="https://www.clicketpaf.org" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="ClicketPaf - Livraison Rapide et Fiable" />
-    <meta
-      name="twitter:description"
-      content="ClicketPaf propose une livraison rapide et fiable de vos repas, colis, courses et déménagements partout en France. Faites confiance à ClicketPaf pour vos besoins de livraison."
-    />
+    <meta name="twitter:description" content="ClicketPaf propose une livraison rapide et fiable de vos repas, colis, courses et déménagements partout en France. Faites confiance à ClicketPaf pour vos besoins de livraison." />
     <title>ClicketPaf - Livraison Rapide et Fiable</title>
 
     <!-- Tailwind CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.3/dist/tailwind.min.css"
-      rel="stylesheet"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.3/dist/tailwind.min.css" rel="stylesheet" />
     <link href="./assets/css/tailwind.css" rel="stylesheet" />
     
     <!-- Animate.css for animations (optional) -->
@@ -46,7 +31,9 @@
         <a href="index.html" class="flex items-center" title="Accueil - ClicketPaf">
           <img src="./assets/img/clicketpaf-logo.png" alt="ClicketPaf Logo" class="h-16 w-auto mr-2" />
         </a>
-        <ul class="flex space-x-6">
+
+        <!-- Menu for Desktop -->
+        <ul class="hidden md:flex space-x-6">
           <li><a href="index.html" class="text-gray-700 hover:text-blue-600" title="Page d'accueil de ClicketPaf">Accueil</a></li>
           <li><a href="services-livraison-clicketpaf.html" class="text-gray-700 hover:text-blue-600" title="Nos services de livraison rapide ClicketPaf">Services de livraison</a></li>
           <li><a href="a-propos-clicketpaf.html" class="text-gray-700 hover:text-blue-600" title="En savoir plus sur ClicketPaf">À propos</a></li>
@@ -55,8 +42,41 @@
           <li><a href="termes-conditions-clicketpaf.html" class="text-gray-700 hover:text-blue-600">Termes et Conditions</a></li>
           <li><a href="politique-confidentialite-clicketpaf.html" class="text-gray-700 hover:text-blue-600">Politique de Confidentialité</a></li>
         </ul>
+
+        <!-- Menu Burger (Mobile) -->
+        <div class="md:hidden flex items-center">
+          <button id="burger-icon" class="text-gray-700 focus:outline-none">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </button>
+        </div>
       </nav>
+
+      <!-- Mobile Menu (hidden by default) -->
+      <div id="mobile-menu" class="md:hidden bg-white shadow-md hidden">
+        <ul class="space-y-4 py-4 px-6">
+          <li><a href="index.html" class="text-gray-700 hover:text-blue-600" title="Page d'accueil de ClicketPaf">Accueil</a></li>
+          <li><a href="services-livraison-clicketpaf.html" class="text-gray-700 hover:text-blue-600" title="Nos services de livraison rapide ClicketPaf">Services de livraison</a></li>
+          <li><a href="a-propos-clicketpaf.html" class="text-gray-700 hover:text-blue-600" title="En savoir plus sur ClicketPaf">À propos</a></li>
+          <li><a href="contact-clicketpaf.html" class="text-gray-700 hover:text-blue-600" title="Contactez ClicketPaf pour plus d'informations">Contact</a></li>
+          <li><a href="faq-clicketpaf.html" class="text-gray-700 hover:text-blue-600" title="FAQ ClicketPaf">FAQ</a></li>
+          <li><a href="termes-conditions-clicketpaf.html" class="text-gray-700 hover:text-blue-600">Termes et Conditions</a></li>
+          <li><a href="politique-confidentialite-clicketpaf.html" class="text-gray-700 hover:text-blue-600">Politique de Confidentialité</a></li>
+        </ul>
+      </div>
     </header>
+
+    <script>
+      // Toggle mobile menu
+      const burgerIcon = document.getElementById('burger-icon');
+      const mobileMenu = document.getElementById('mobile-menu');
+
+      burgerIcon.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+      });
+    </script>
+
 
     <!-- Hero Section -->
     <section class="bg-gradient-to-tr from-cyan-300 to-blue-100 text-white py-20 px-8 rounded-lg">
