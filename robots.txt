@@ -1,0 +1,21 @@
+# robots.txt for https://www.clicketpaf.org
+
+User-agent: *
+Disallow: /admin/
+Disallow: /login/
+Disallow: /register/
+Disallow: /user-dashboard/
+Disallow: /cart/
+
+# Allow Googlebot to crawl the entire site
+User-agent: Googlebot
+Allow: /
+
+# Allow other search engines to crawl the entire site
+User-agent: Bingbot
+Allow: /
+
+User-agent: *
+Allow: /
+
+Sitemap: https://www.clicketpaf.org/sitemap.xml
