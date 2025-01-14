@@ -1,54 +1,137 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
   <head>
     <meta charset="UTF-8" />
-    <meta name="robots" content="index, follow">
+    <meta name="robots" content="index, follow" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="ClicketPaf est la solution idéale pour toutes vos livraisons. Nous proposons des services de livraison rapide pour les repas, les colis, les courses et même les déménagements." />
-    <meta name="keywords" content="ClicketPaf, livraison ClicketPaf, livraison rapide ClicketPaf, livraison de repas ClicketPaf, livraison de colis ClicketPaf, déménagement ClicketPaf, transport express ClicketPaf, ClicketPaf service à domicile, service de livraison ClicketPaf, ClicketPaf courses à domicile, ClicketPaf solutions de transport click et paf" />
+    <meta
+      name="description"
+      content="ClicketPaf est la solution idéale pour toutes vos livraisons. Nous proposons des services de livraison rapide pour les repas, les colis, les courses et même les déménagements."
+    />
+    <meta
+      name="keywords"
+      content="ClicketPaf, livraison ClicketPaf, livraison rapide ClicketPaf, livraison de repas ClicketPaf, livraison de colis ClicketPaf, déménagement ClicketPaf, transport express ClicketPaf, ClicketPaf service à domicile, service de livraison ClicketPaf, ClicketPaf courses à domicile, ClicketPaf solutions de transport click et paf"
+    />
     <meta name="author" content="ClicketPaf" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="ClicketPaf - Livraison Rapide et Fiable" />
-    <meta property="og:description" content="ClicketPaf propose une livraison rapide et fiable de vos repas, colis, courses et déménagements partout en France. Faites confiance à ClicketPaf pour vos besoins de livraison." />
+    <meta
+      property="og:title"
+      content="ClicketPaf - Livraison Rapide et Fiable"
+    />
+    <meta
+      property="og:description"
+      content="ClicketPaf propose une livraison rapide et fiable de vos repas, colis, courses et déménagements partout en France. Faites confiance à ClicketPaf pour vos besoins de livraison."
+    />
     <meta property="og:image" content="assets/img/logo-clicketpaf.png" />
     <meta property="og:url" content="https://www.clicketpaf.org" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="ClicketPaf - Livraison Rapide et Fiable" />
-    <meta name="twitter:description" content="ClicketPaf propose une livraison rapide et fiable de vos repas, colis, courses et déménagements partout en France. Faites confiance à ClicketPaf pour vos besoins de livraison." />
+    <meta
+      name="twitter:title"
+      content="ClicketPaf - Livraison Rapide et Fiable"
+    />
+    <meta
+      name="twitter:description"
+      content="ClicketPaf propose une livraison rapide et fiable de vos repas, colis, courses et déménagements partout en France. Faites confiance à ClicketPaf pour vos besoins de livraison."
+    />
     <title>ClicketPaf - Livraison Rapide et Fiable</title>
-    <link rel="icon" href="./assets/img/clicketpaf-favicon.png" type="image/png" />
+    <link
+      rel="icon"
+      href="./assets/img/clicketpaf-favicon.png"
+      type="image/png"
+    />
 
     <!-- Tailwind CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.3/dist/tailwind.min.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.3/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
     <link href="./assets/css/tailwind.css" rel="stylesheet" />
-    
+
     <!-- Animate.css for animations (optional) -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      rel="stylesheet"
+    />
   </head>
   <body class="bg-gray-50 text-gray-800">
     <!-- Navbar -->
     <header class="bg-white shadow-md">
-      <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
-        <a href="index.html" class="flex items-center" title="Accueil - ClicketPaf">
-          <img src="./assets/img/clicketpaf-logo.png" alt="ClicketPaf Logo" class="h-16 w-auto mr-2" />
+      <nav
+        class="container mx-auto px-4 py-4 flex justify-between items-center"
+      >
+        <a
+          href="index.html"
+          class="flex items-center"
+          title="Accueil - ClicketPaf"
+        >
+          <img
+            src="./assets/img/clicketpaf-logo.png"
+            alt="ClicketPaf Logo"
+            class="h-16 w-auto mr-2"
+          />
         </a>
 
         <!-- Menu for Desktop -->
-        <ul class="hidden md:flex space-x-6">
-          <li><a href="index.html" class="text-gray-700 hover:text-blue-600" title="Page d'accueil de ClicketPaf">Accueil</a></li>
-          <li><a href="services-livraison-clicketpaf.html" class="text-gray-700 hover:text-blue-600" title="Nos services de livraison rapide ClicketPaf">Services de livraison</a></li>
-          <li><a href="a-propos-clicketpaf.html" class="text-gray-700 hover:text-blue-600" title="En savoir plus sur ClicketPaf">À propos</a></li>
-          <li><a href="contact-clicketpaf.html" class="text-gray-700 hover:text-blue-600" title="Contactez ClicketPaf pour plus d'informations">Contact</a></li>
-          <li><a href="faq-clicketpaf.html" class="text-gray-700 hover:text-blue-600" title="FAQ ClicketPaf">FAQ</a></li>
-          <li><a href="termes-conditions-clicketpaf.html" class="text-gray-700 hover:text-blue-600">Termes et Conditions</a></li>
-          <li><a href="politique-confidentialite-clicketpaf.html" class="text-gray-700 hover:text-blue-600">Politique de Confidentialité</a></li>
+        <ul class="hidden md:flex space-x-6 mx-3">
+          <li>
+            <a
+              href="index.html"
+              class="text-gray-700 hover:text-blue-600"
+              title="Page d'accueil de ClicketPaf"
+              >Accueil</a
+            >
+          </li>
+          <li>
+            <a
+              href="services-livraison-clicketpaf.html"
+              class="text-gray-700 hover:text-blue-600"
+              title="Nos services de livraison rapide ClicketPaf"
+              >Services de livraison</a
+            >
+          </li>
+          <li>
+            <a
+              href="a-propos-clicketpaf.html"
+              class="text-gray-700 hover:text-blue-600"
+              title="En savoir plus sur ClicketPaf"
+              >À propos</a
+            >
+          </li>
+          <li>
+            <a
+              href="contact-clicketpaf.html"
+              class="text-gray-700 hover:text-blue-600"
+              title="Contactez ClicketPaf pour plus d'informations"
+              >Contact</a
+            >
+          </li>
+          <li>
+            <a
+              href="faq-clicketpaf.html"
+              class="text-gray-700 hover:text-blue-600"
+              title="FAQ ClicketPaf"
+              >FAQ</a
+            >
+          </li>
+          
         </ul>
 
         <!-- Menu Burger (Mobile) -->
         <div class="md:hidden flex items-center">
           <button id="burger-icon" class="text-gray-700 focus:outline-none">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-6 h-6">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"
+              />
             </svg>
           </button>
         </div>
@@ -57,36 +140,91 @@
       <!-- Mobile Menu (hidden by default) -->
       <div id="mobile-menu" class="md:hidden bg-white shadow-md hidden">
         <ul class="space-y-4 py-4 px-6">
-          <li><a href="index.html" class="text-gray-700 hover:text-blue-600" title="Page d'accueil de ClicketPaf">Accueil</a></li>
-          <li><a href="services-livraison-clicketpaf.html" class="text-gray-700 hover:text-blue-600" title="Nos services de livraison rapide ClicketPaf">Services de livraison</a></li>
-          <li><a href="a-propos-clicketpaf.html" class="text-gray-700 hover:text-blue-600" title="En savoir plus sur ClicketPaf">À propos</a></li>
-          <li><a href="contact-clicketpaf.html" class="text-gray-700 hover:text-blue-600" title="Contactez ClicketPaf pour plus d'informations">Contact</a></li>
-          <li><a href="faq-clicketpaf.html" class="text-gray-700 hover:text-blue-600" title="FAQ ClicketPaf">FAQ</a></li>
-          <li><a href="termes-conditions-clicketpaf.html" class="text-gray-700 hover:text-blue-600">Termes et Conditions</a></li>
-          <li><a href="politique-confidentialite-clicketpaf.html" class="text-gray-700 hover:text-blue-600">Politique de Confidentialité</a></li>
+          <li>
+            <a
+              href="index.html"
+              class="text-gray-700 hover:text-blue-600"
+              title="Page d'accueil de ClicketPaf"
+              >Accueil</a
+            >
+          </li>
+          <li>
+            <a
+              href="services-livraison-clicketpaf.html"
+              class="text-gray-700 hover:text-blue-600"
+              title="Nos services de livraison rapide ClicketPaf"
+              >Services de livraison</a
+            >
+          </li>
+          <li>
+            <a
+              href="a-propos-clicketpaf.html"
+              class="text-gray-700 hover:text-blue-600"
+              title="En savoir plus sur ClicketPaf"
+              >À propos</a
+            >
+          </li>
+          <li>
+            <a
+              href="contact-clicketpaf.html"
+              class="text-gray-700 hover:text-blue-600"
+              title="Contactez ClicketPaf pour plus d'informations"
+              >Contact</a
+            >
+          </li>
+          <li>
+            <a
+              href="faq-clicketpaf.html"
+              class="text-gray-700 hover:text-blue-600"
+              title="FAQ ClicketPaf"
+              >FAQ</a
+            >
+          </li>
+          <li>
+            <a
+              href="termes-conditions-clicketpaf.html"
+              class="text-gray-700 hover:text-blue-600"
+              >Termes et Conditions</a
+            >
+          </li>
+          <li>
+            <a
+              href="politique-confidentialite-clicketpaf.html"
+              class="text-gray-700 hover:text-blue-600"
+              >Politique de Confidentialité</a
+            >
+          </li>
         </ul>
       </div>
     </header>
 
     <script>
       // Toggle mobile menu
-      const burgerIcon = document.getElementById('burger-icon');
-      const mobileMenu = document.getElementById('mobile-menu');
+      const burgerIcon = document.getElementById("burger-icon");
+      const mobileMenu = document.getElementById("mobile-menu");
 
-      burgerIcon.addEventListener('click', () => {
-        mobileMenu.classList.toggle('hidden');
+      burgerIcon.addEventListener("click", () => {
+        mobileMenu.classList.toggle("hidden");
       });
     </script>
 
-
     <!-- Hero Section -->
-    <section class="bg-gradient-to-tr from-cyan-300 to-blue-100 text-white py-20 px-8 rounded-lg">
+    <section
+      class="bg-gradient-to-tr from-cyan-300 to-blue-100 text-white py-20 px-8 rounded-lg"
+    >
       <div class="container mx-auto text-center">
-        <h1 class="text-4xl font-bold mb-6 transition-transform transform hover:scale-105 duration-500 animate__fadeIn">
+        <h1
+          class="text-4xl font-bold mb-6 transition-transform transform hover:scale-105 duration-500 animate__fadeIn"
+        >
           Bienvenue chez ClicketPaf - Votre Solution de Livraison
         </h1>
-        <p class="text-lg mb-6 transition-opacity opacity-80 hover:opacity-100 duration-300 animate__fadeIn animate__delay-1s">
-          Simplifiez votre quotidien avec ClicketPaf, la solution innovante pour tous vos besoins de livraison. Que ce soit pour vos repas, vos colis, vos courses ou même vos déménagements, ClicketPaf est là pour vous. Profitez d'un service rapide, fiable et adapté à vos exigences.
+        <p
+          class="text-lg mb-6 transition-opacity opacity-80 hover:opacity-100 duration-300 animate__fadeIn animate__delay-1s"
+        >
+          Simplifiez votre quotidien avec ClicketPaf, la solution innovante pour
+          tous vos besoins de livraison. Que ce soit pour vos repas, vos colis,
+          vos courses ou même vos déménagements, ClicketPaf est là pour vous.
+          Profitez d'un service rapide, fiable et adapté à vos exigences.
         </p>
         <a
           href="services-livraison-clicketpaf.html"
@@ -165,34 +303,44 @@
     </section>
 
     <!-- Footer -->
-    <footer class="bg-gray-800 text-gray-200 py-10">
+    <footer class="bg-gray-800 text-gray-400 py-10">
       <div class="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
-        <div>
-          <h3 class="text-lg font-bold mb-2">ClicketPaf</h3>
-          <p>
+        <div class="px-6">
+          <h3 class="text-lg font-bold mb-2 text-gray-100">ClicketPaf</h3>
+          <p class="text-gray-400">
             Votre solution de livraison rapide et fiable pour tout type de
             besoin.
           </p>
         </div>
-        <div>
-          <h3 class="text-lg font-bold mb-2">Liens Rapides</h3>
+        <div class="px-6">
+          <h3 class="text-lg font-bold mb-2 text-gray-100">Liens Rapides</h3>
           <ul>
             <li><a href="index.html" class="hover:underline">Accueil</a></li>
             <li>
-              <a href="services-livraison-clicketpaf.html" class="hover:underline">Services</a>
+              <a
+                href="services-livraison-clicketpaf.html"
+                class="hover:underline"
+                >Services</a
+              >
             </li>
-            <li><a href="contact-clicketpaf.html" class="hover:underline">Contact</a></li>
-            <li><a href="faq-clicketpaf.html" class="hover:underline">FAQ</a></li>
+            <li>
+              <a href="contact-clicketpaf.html" class="hover:underline"
+                >Contact</a
+              >
+            </li>
+            <li>
+              <a href="faq-clicketpaf.html" class="hover:underline">FAQ</a>
+            </li>
           </ul>
         </div>
-        <div>
-          <h3 class="text-lg font-bold mb-2">Contact</h3>
-          <p>Email : contact@clicketpaf.com</p>
-          <p>Téléphone : +33 6 12 34 56 78</p>
-          <p>Adresse : 123 Rue de la Livraison, Paris</p>
+        <div class="px-6">
+          <h3 class="text-lg font-bold mb-2 text-gray-100">Contact</h3>
+          <p class="text-gray-400">Email : contact@clicketpaf.com</p>
+          <p class="text-gray-400">Téléphone : +33 6 12 34 56 78</p>
+          <p class="text-gray-400">Adresse : 123 Rue de la Livraison, Paris</p>
         </div>
-        <div>
-          <h3 class="text-lg font-bold mb-2">Suivez-nous</h3>
+        <div class="px-6">
+          <h3 class="text-lg font-bold mb-2 text-gray-100">Suivez-nous</h3>
           <ul class="flex space-x-4">
             <li><a href="#" class="hover:underline">Facebook</a></li>
             <li><a href="#" class="hover:underline">Twitter</a></li>
@@ -200,9 +348,19 @@
           </ul>
         </div>
       </div>
-      <p class="text-center text-gray-500 mt-8">
-        © 2024 ClicketPaf. Tous droits réservés.
+      <p class="text-center text-gray-300 mt-8">
+        © 2024 <span class="font-bold text-gray-200">ClicketPaf</span>. Tous droits réservés.
       </p>
+      <div class="text-center space-x-2">
+        <a href="termes-conditions-clicketpaf.html" 
+           class="relative text-gray-400 text-sm hover:text-cyan-400 transition duration-300 after:block after:w-0 hover:after:w-full after:h-0.5 after:bg-cyan-400 after:transition-all after:duration-300">
+          Termes et conditions
+        </a>
+        <a href="politique-confidentialite-clicketpaf.html" 
+           class="relative text-gray-400 text-sm hover:text-cyan-400 transition duration-300 after:block after:w-0 hover:after:w-full after:h-0.5 after:bg-cyan-400 after:transition-all after:duration-300">
+          Politique et Confidentialité
+        </a>
+      </div>      
     </footer>
   </body>
 </html>
