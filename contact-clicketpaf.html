@@ -207,7 +207,56 @@
         </div>
       </div>
     </section>
-
+    <section class="bg-blue-50 py-12">
+      <div class="container mx-auto text-center">
+        <h2 class="text-3xl font-bold text-gray-800 mb-6">Nos heures d'ouverture</h2>
+        <p class="text-lg text-gray-600 mb-4">Nous sommes disponibles pour répondre à vos demandes :</p>
+        <ul class="text-lg text-gray-600">
+          <li>Lundi - Vendredi : 9h00 - 18h00</li>
+          <li>Samedi : 10h00 - 14h00</li>
+          <li>Dimanche : Fermé</li>
+        </ul>
+      </div>
+    </section>
+    <section class="py-16">
+      <div class="container mx-auto text-center">
+        <h2 class="text-3xl font-bold text-gray-800 mb-6">Où nous trouver</h2>
+        <div class="w-full h-96">
+          <iframe
+            class="w-full h-full"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.7881155566123!2d2.294481315674924!3d48.85884477928709!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671d6a0f8faef%3A0x8ed3f45f3b3fc04a!2sTour%20Eiffel!5e0!3m2!1sfr!2sfr!4v1643238416590!5m2!1sfr!2sfr"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+    </section>
+    
+    <section class="bg-white py-16">
+      <div class="container mx-auto text-center">
+        <h2 class="text-3xl font-bold text-gray-800 mb-6">Témoignages de nos clients</h2>
+        <div class="flex justify-center space-x-8">
+          <div class="bg-gray-100 p-6 rounded-lg shadow-lg max-w-xs">
+            <p class="text-gray-600 mb-4">"ClicketPaf a fait un excellent travail ! Livraison rapide et service très professionnel. Je recommande vivement."</p>
+            <p class="font-bold text-gray-800">Jean Dupont</p>
+            <p class="text-gray-500">Client satisfait</p>
+          </div>
+          <div class="bg-gray-100 p-6 rounded-lg shadow-lg max-w-xs">
+            <p class="text-gray-600 mb-4">"Un service de livraison exceptionnel. Mes courses ont été livrées en temps et en heure. Bravo !"</p>
+            <p class="font-bold text-gray-800">Marie Martin</p>
+            <p class="text-gray-500">Client satisfait</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <button id="back-to-top" class="fixed bottom-6 right-6 bg-blue-600 text-white p-3 rounded-full shadow-lg hover:bg-blue-500">
+      ↑
+    </button>
+    
+    <script>
+      document.getElementById('back-to-top').addEventListener('click', () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    </script>
+    
     <!-- Footer -->
     <footer class="bg-gray-800 text-gray-400 py-10">
       <div class="flex flex-col items-center sm:items-center">
