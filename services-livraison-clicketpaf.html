@@ -24,9 +24,11 @@
     <!-- Tailwind CSS -->
     <link href="https://cdn.tailwindcss.com" rel="stylesheet">
     <link href="./assets/css/tailwind.css" rel="stylesheet" />
-    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <!-- Animate.css for animations (optional) -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+     <!-- Font Awesome Icons -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
   </head>
   <body class="bg-gray-50 text-gray-800">
     <!-- Navbar -->
@@ -126,9 +128,43 @@
   </div>
 </section>
 
-  
+  <!-- Section : Barre de recherche vocale -->
+  <section class="bg-white shadow-md rounded-lg p-6">
+    <h2 class="text-2xl font-bold mb-4 text-gray-700">Recherche vocale</h2>
+    <div class="flex items-center space-x-2">
+      <input type="text" placeholder="Rechercher..." class="flex-1 p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring focus:ring-blue-300">
+      <button class="bg-blue-600 text-white p-3 rounded-lg hover:bg-blue-700">
+        <i class="fas fa-microphone"></i>
+      </button>
+    </div>
+  </section>
+
+   <!-- Section : Icônes pour les services -->
+   <section class="bg-white shadow-md rounded-lg p-6">
+    <h2 class="text-2xl font-bold mb-4 text-gray-700">Nos Services</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+      <div class="space-y-4">
+        <div class="bg-blue-100 text-blue-600 p-4 rounded-full inline-block">
+          <i class="fas fa-truck text-4xl"></i>
+        </div>
+        <p class="font-medium text-gray-700">Livraison rapide</p>
+      </div>
+      <div class="space-y-4">
+        <div class="bg-green-100 text-green-600 p-4 rounded-full inline-block">
+          <i class="fas fa-dollar-sign text-4xl"></i>
+        </div>
+        <p class="font-medium text-gray-700">Prix compétitifs</p>
+      </div>
+      <div class="space-y-4">
+        <div class="bg-yellow-100 text-yellow-600 p-4 rounded-full inline-block">
+          <i class="fas fa-headset text-4xl"></i>
+        </div>
+        <p class="font-medium text-gray-700">Support 24/7</p>
+      </div>
+    </div>
+  </section>
       <!-- Services Section -->
-      <section class="py-16">
+      <section class="py-8">
         <div class="container mx-auto">
           <h2 class="text-3xl font-bold text-center mb-10">
             Détails de nos Services
@@ -262,6 +298,65 @@
         </div>
       </section>
   
+<!-- Section : Formulaire de demande de devis -->
+<div class="flex justify-center mb-8">
+  <section class="bg-white shadow-lg rounded-lg p-6 w-full md:w-1/2">
+    <h2 class="text-2xl font-bold mb-4 text-gray-800">Demande de Devis</h2>
+    <form class="space-y-6">
+      <div>
+        <label class="block text-sm font-medium text-gray-700 mb-2">Nom et Prénom</label>
+        <input type="text" class="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+      </div>
+      <div>
+        <label class="block text-sm font-medium text-gray-700 mb-2">Email</label>
+        <input type="email" class="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+      </div>
+      <div>
+        <label class="block text-sm font-medium text-gray-700 mb-2">Message</label>
+        <textarea rows="4" class="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+      </div>
+      <button type="submit" class="w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 transition duration-300">Envoyer</button>
+    </form>
+  </section>
+</div>
+
+<!-- Section : FAQ interactive -->
+<div class="flex justify-center mb-8">
+  <section class="bg-white shadow-lg rounded-lg p-6 w-full md:w-1/2">
+    <h2 class="text-2xl font-bold mb-4 text-gray-800">FAQ - Questions Fréquemment Posées</h2>
+    <div class="space-y-6">
+      <details class="p-4 border border-gray-300 rounded-lg">
+        <summary class="cursor-pointer font-medium text-gray-700">Comment faire une demande de devis ?</summary>
+        <p class="mt-2 text-gray-600">Vous pouvez remplir le formulaire ci-dessus pour soumettre votre demande.</p>
+      </details>
+      <details class="p-4 border border-gray-300 rounded-lg">
+        <summary class="cursor-pointer font-medium text-gray-700">Quels sont les délais de réponse ?</summary>
+        <p class="mt-2 text-gray-600">Nous répondons généralement sous 24 heures.</p>
+      </details>
+    </div>
+  </section>
+</div>
+
+
+   <!-- Section : Statistiques impressionnantes -->
+    <section class="bg-white shadow-md rounded-lg p-6">
+      <h2 class="text-2xl font-bold mb-4 text-gray-700">Nos Réalisations</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+        <div class="bg-gray-100 p-6 rounded-lg">
+          <h3 class="text-4xl font-bold text-blue-600">98%</h3>
+          <p class="text-gray-600 mt-2">Clients satisfaits</p>
+        </div>
+        <div class="bg-gray-100 p-6 rounded-lg">
+          <h3 class="text-4xl font-bold text-blue-600">10 000+</h3>
+          <p class="text-gray-600 mt-2">Commandes livrées ce mois</p>
+        </div>
+        <div class="bg-gray-100 p-6 rounded-lg">
+          <h3 class="text-4xl font-bold text-blue-600">20+</h3>
+          <p class="text-gray-600 mt-2">Années d'expérience</p>
+        </div>
+      </div>
+    </section>
+  
      <!-- Footer -->
      <footer class="bg-gray-800 text-gray-400 py-10">
       <div class="flex flex-col items-center sm:items-center">
@@ -336,5 +431,6 @@
         </p>
       </div>
     </footer>
+   
   </body>
 </html>
