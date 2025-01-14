@@ -54,145 +54,57 @@
     />
   </head>
   <body class="bg-gray-50 text-gray-800">
-    <!-- Navbar -->
     <header class="bg-white shadow-md">
-      <nav
-        class="container mx-auto px-4 py-4 flex justify-between items-center"
-      >
-        <a
-          href="index.html"
-          class="flex items-center"
-          title="Accueil - ClicketPaf"
-        >
+      <nav class="container mx-auto px-4 py-4 flex justify-between items-center" aria-label="Navigation principale">
+        <a href="index.html" class="flex items-center" title="Accueil - ClicketPaf">
           <img
             src="./assets/img/clicketpaf-logo.png"
-            alt="ClicketPaf Logo"
+            alt="Logo de ClicketPaf, une entreprise de livraison rapide"
             class="h-16 w-auto mr-2"
           />
         </a>
-
+    
         <!-- Menu for Desktop -->
         <ul class="hidden md:flex space-x-6 mx-3">
-          <li>
-            <a
-              href="index.html"
-              class="text-gray-700 hover:text-blue-600"
-              title="Page d'accueil de ClicketPaf"
-              >Accueil</a
-            >
-          </li>
-          <li>
-            <a
-              href="services-livraison-clicketpaf.html"
-              class="text-gray-700 hover:text-blue-600"
-              title="Nos services de livraison rapide ClicketPaf"
-              >Services de livraison</a
-            >
-          </li>
-          <li>
-            <a
-              href="a-propos-clicketpaf.html"
-              class="text-gray-700 hover:text-blue-600"
-              title="En savoir plus sur ClicketPaf"
-              >À propos</a
-            >
-          </li>
-          <li>
-            <a
-              href="contact-clicketpaf.html"
-              class="text-gray-700 hover:text-blue-600"
-              title="Contactez ClicketPaf pour plus d'informations"
-              >Contact</a
-            >
-          </li>
-          <li>
-            <a
-              href="faq-clicketpaf.html"
-              class="text-gray-700 hover:text-blue-600"
-              title="FAQ ClicketPaf"
-              >FAQ</a
-            >
-          </li>
-          
+          <li><a href="index.html" class="text-gray-700 hover:text-blue-600" title="Page d'accueil de ClicketPaf">Accueil</a></li>
+          <li><a href="services-livraison-clicketpaf.html" class="text-gray-700 hover:text-blue-600" title="Nos services de livraison rapide ClicketPaf">Services de livraison</a></li>
+          <li><a href="a-propos-clicketpaf.html" class="text-gray-700 hover:text-blue-600" title="En savoir plus sur ClicketPaf">À propos</a></li>
+          <li><a href="contact-clicketpaf.html" class="text-gray-700 hover:text-blue-600" title="Contactez ClicketPaf pour plus d'informations">Contact</a></li>
+          <li><a href="faq-clicketpaf.html" class="text-gray-700 hover:text-blue-600" title="FAQ ClicketPaf">FAQ</a></li>
         </ul>
-
+    
         <!-- Menu Burger (Mobile) -->
         <div class="md:hidden flex items-center">
-          <button id="burger-icon" class="text-gray-700 focus:outline-none">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              class="w-6 h-6"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M4 6h16M4 12h16M4 18h16"
-              />
+          <button id="burger-icon" class="text-gray-700 focus:outline-none" aria-label="Menu mobile" aria-expanded="false">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
             </svg>
           </button>
         </div>
       </nav>
-
+    
       <!-- Mobile Menu (hidden by default) -->
-      <div id="mobile-menu" class="md:hidden bg-white shadow-md hidden">
+      <div id="mobile-menu" class="md:hidden bg-white shadow-md hidden" role="menu">
         <ul class="space-y-4 py-4 px-6">
-          <li>
-            <a
-              href="index.html"
-              class="text-gray-700 hover:text-blue-600"
-              title="Page d'accueil de ClicketPaf"
-              >Accueil</a
-            >
-          </li>
-          <li>
-            <a
-              href="services-livraison-clicketpaf.html"
-              class="text-gray-700 hover:text-blue-600"
-              title="Nos services de livraison rapide ClicketPaf"
-              >Services de livraison</a
-            >
-          </li>
-          <li>
-            <a
-              href="a-propos-clicketpaf.html"
-              class="text-gray-700 hover:text-blue-600"
-              title="En savoir plus sur ClicketPaf"
-              >À propos</a
-            >
-          </li>
-          <li>
-            <a
-              href="contact-clicketpaf.html"
-              class="text-gray-700 hover:text-blue-600"
-              title="Contactez ClicketPaf pour plus d'informations"
-              >Contact</a
-            >
-          </li>
-          <li>
-            <a
-              href="faq-clicketpaf.html"
-              class="text-gray-700 hover:text-blue-600"
-              title="FAQ ClicketPaf"
-              >FAQ</a
-            >
-          </li>
+          <li role="menuitem"><a href="index.html" class="text-gray-700 hover:text-blue-600" title="Page d'accueil de ClicketPaf">Accueil</a></li>
+          <li role="menuitem"><a href="services-livraison-clicketpaf.html" class="text-gray-700 hover:text-blue-600" title="Nos services de livraison rapide ClicketPaf">Services de livraison</a></li>
+          <li role="menuitem"><a href="a-propos-clicketpaf.html" class="text-gray-700 hover:text-blue-600" title="En savoir plus sur ClicketPaf">À propos</a></li>
+          <li role="menuitem"><a href="contact-clicketpaf.html" class="text-gray-700 hover:text-blue-600" title="Contactez ClicketPaf pour plus d'informations">Contact</a></li>
+          <li role="menuitem"><a href="faq-clicketpaf.html" class="text-gray-700 hover:text-blue-600" title="FAQ ClicketPaf">FAQ</a></li>
         </ul>
       </div>
     </header>
-
+    
     <script>
       // Toggle mobile menu
       const burgerIcon = document.getElementById("burger-icon");
       const mobileMenu = document.getElementById("mobile-menu");
-
+    
       burgerIcon.addEventListener("click", () => {
-        mobileMenu.classList.toggle("hidden");
+        const isExpanded = mobileMenu.classList.toggle("hidden");
+        burgerIcon.setAttribute("aria-expanded", !isExpanded);
       });
-    </script>
+    </script>    
 
     <!-- Hero Section -->
     <section
