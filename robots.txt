@@ -1,21 +1,28 @@
 # robots.txt for https://www.clicketpaf.org
 
+# Prevent crawlers from accessing sensitive or unnecessary areas
 User-agent: *
-Disallow: /admin/
-Disallow: /login/
-Disallow: /register/
-Disallow: /user-dashboard/
-Disallow: /cart/
+Disallow: /admin/    # Admin area
+Disallow: /login/    # Login page
+Disallow: /register/ # Registration page
+Disallow: /user-dashboard/ # User dashboard
+Disallow: /cart/     # Shopping cart
 
-# Allow Googlebot to crawl the entire site
+# Block crawling of URL parameters to avoid duplicate content
+Disallow: /*?*
+
+# Allow Googlebot full access
 User-agent: Googlebot
 Allow: /
 
-# Allow other search engines to crawl the entire site
+# Allow Bingbot full access
 User-agent: Bingbot
 Allow: /
 
+# Block unnecessary file types from being crawled
 User-agent: *
-Allow: /
+Disallow: /*.css$
+Disallow: /*.js$
 
+# Sitemap location
 Sitemap: https://www.clicketpaf.org/sitemap.xml
