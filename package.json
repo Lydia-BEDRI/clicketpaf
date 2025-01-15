@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "watch": "npx tailwindcss -i ./assets/css/styles.css -o ./assets/css/tailwind.css --watch",
-    "build": "npx tailwindcss -i ./assets/css/styles.css -o ./assets/css/tailwind.css && postcss ./assets/css/tailwind.css -o ./assets/css/tailwind.min.css --use autoprefixer"
+    "build":"npx tailwindcss -i ./assets/css/styles.css -o ./assets/css/tailwind.min.css --minify"
   },
   "keywords": [],
   "author": "",
