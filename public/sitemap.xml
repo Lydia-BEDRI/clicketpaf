@@ -3,21 +3,21 @@
     <!-- Homepage -->
     <url>
         <loc>https://www.clicketpaf.org/</loc>
-        <lastmod>2025-01-15</lastmod>
+        <lastmod>2025-01-25</lastmod>
         <priority>1.0</priority>
     </url>
 
     <!-- Services Page -->
     <url>
         <loc>https://www.clicketpaf.org/services-livraison-clicketpaf.html</loc>
-        <lastmod>2025-01-15</lastmod>
+        <lastmod>2025-01-25</lastmod>
         <priority>0.8</priority>
     </url>
 
     <!-- About Page -->
     <url>
         <loc>https://www.clicketpaf.org/a-propos-clicketpaf.html</loc>
-        <lastmod>2025-01-15</lastmod>
+        <lastmod>2025-01-25</lastmod>
         <priority>0.8</priority>
     </url>
 
@@ -31,21 +31,21 @@
     <!-- FAQ Page -->
     <url>
         <loc>https://www.clicketpaf.org/faq-clicketpaf.html</loc>
-        <lastmod>2025-01-15</lastmod>
+        <lastmod>2025-01-25</lastmod>
         <priority>0.8</priority>
     </url>
 
     <!-- Terms & Conditions Page -->
     <url>
         <loc>https://www.clicketpaf.org/terms-and-conditions-clicketpaf.html</loc>
-        <lastmod>2025-01-15</lastmod>
+        <lastmod>2025-01-25</lastmod>
         <priority>0.7</priority>
     </url>
 
     <!-- Privacy Policy Page -->
     <url>
         <loc>https://www.clicketpaf.org/privacy-policy-clicketpaf.html</loc>
-        <lastmod>2025-01-15</lastmod>
+        <lastmod>2025-01-25</lastmod>
         <priority>0.7</priority>
     </url>
 </urlset>
