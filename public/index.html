@@ -44,7 +44,6 @@
     />
     <!-- Custom CSS -->
     <link href="./assets/css/tailwind.min.css" rel="stylesheet" />
-
   </head>
   <body class="bg-gray-50 text-gray-800">
     <!-- Navbar -->
@@ -461,10 +460,10 @@
        
     <section id="testimonials" class="py-12 bg-gray-100">
       <div class="container mx-auto px-4">
-        <!-- Section des témoignages - Ce que disent nos clients à propos de ClicketPaf -->
+        <!-- Section des témoignages -->
         <h2 class="text-3xl font-bold text-center mb-8">Ce que disent nos clients</h2>
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8">
-          <!-- Témoignage 1 -->
+          <!-- Témoignages ici -->
           <div class="bg-white shadow-md rounded-lg p-6">
             <p class="text-gray-700 italic">"🚚 Un service impeccable, rapide et fiable. Avec ClicketPaf, c'est vraiment click et paf ! 👌"</p>
             <div class="mt-4 text-right">
@@ -472,7 +471,8 @@
               <p class="text-sm text-gray-500">Paris, France</p>
             </div>
           </div>
-          <!-- Témoignage 2 -->
+          <!-- Répéter pour les autres témoignages -->
+           <!-- Témoignage 2 -->
           <div class="bg-white shadow-md rounded-lg p-6">
             <p class="text-gray-700 italic">"🏡 Déménager avec ClicketPaf ? Une expérience sans stress ! Ils ont été géniaux. 👍"</p>
             <div class="mt-4 text-right">
@@ -514,7 +514,52 @@
           </div>
         </div>
       </div>
-    </section>
+</section>
+<section class="py-12 bg-white" aria-labelledby="review-form-title">
+  <!-- Formulaire d'avis -->
+  <div class="mt-12 bg-gray-50 shadow-lg rounded-lg p-6 max-w-lg mx-auto">
+    <h3 id="review-form-title" class="text-2xl font-semibold text-gray-800 mb-6 text-center">Laissez-nous votre avis 📝</h3>
+    <form action="#" method="POST" aria-labelledby="review-form-title">
+      <!-- Nom -->
+      <div class="mb-4">
+        <label for="name" class="block text-gray-700 font-medium" id="name-label">
+          <i class="fas fa-user mr-2"></i> Votre nom 
+        </label>
+        <input type="text" id="name" name="name" aria-labelledby="name-label" class="w-full p-3 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500" required />
+      </div>
+
+      <!-- Note -->
+      <div class="mb-4">
+        <label for="rating" class="block text-gray-700 font-medium" id="rating-label">
+          <i class="fas fa-star mr-2"></i> Note (1 à 5 étoiles)
+        </label>
+        <select id="rating" name="rating" aria-labelledby="rating-label" class="w-full p-3 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500" required>
+          <option value="1">1 étoile</option>
+          <option value="2">2 étoiles</option>
+          <option value="3">3 étoiles</option>
+          <option value="4">4 étoiles</option>
+          <option value="5">5 étoiles</option>
+        </select>
+      </div>
+
+      <!-- Commentaire -->
+      <div class="mb-4">
+        <label for="comment" class="block text-gray-700 font-medium" id="comment-label">
+          <i class="fas fa-comment-alt mr-2"></i> Votre avis
+        </label>
+        <textarea id="comment" name="comment" rows="4" aria-labelledby="comment-label" class="w-full p-3 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500" required></textarea>
+      </div>
+
+      <!-- Bouton -->
+      <button type="submit" class="w-full bg-indigo-600 text-white py-3 rounded-lg hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500" aria-label="Envoyer votre avis">
+        <i class="fas fa-paper-plane mr-2"></i> Envoyer mon avis
+      </button>
+    </form>
+  </div>
+</section>
+
+  <hr class="my-12 border-gray-300" /> 
+
     <section class="bg-white py-16 px-4">
       <div class="container mx-auto text-center max-w-4xl">
         <h2 class="text-4xl font-bold text-gray-900 mb-6">Nos Partenariats et Collaborations</h2>
