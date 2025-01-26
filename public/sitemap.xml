@@ -37,14 +37,14 @@
 
     <!-- Terms & Conditions Page -->
     <url>
-        <loc>https://www.clicketpaf.org/terms-and-conditions-clicketpaf.html</loc>
+        <loc>https://www.clicketpaf.org/termes-conditions-clicketpaf.html</loc>
         <lastmod>2025-01-26</lastmod>
         <priority>0.7</priority>
     </url>
 
     <!-- Privacy Policy Page -->
     <url>
-        <loc>https://www.clicketpaf.org/privacy-policy-clicketpaf.html</loc>
+        <loc>https://www.clicketpaf.org/politique-confidentialite-clicketpaf.html</loc>
         <lastmod>2025-01-26</lastmod>
         <priority>0.7</priority>
     </url>
